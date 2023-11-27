@@ -19,6 +19,9 @@ generates all non-schematic panels of Figure 4, including Fig. 4B, 4C, and suppl
 plot_figs7.mlx
 generates supplementary figure Fig.S7.
 
+plot_figs8_s9.mlx
+generate supplementary figures Fig.S8 and S9.
+
 plot_figs12_mi.mlx
 generates supplementary figure Fig.S12.
 
