@@ -1,13 +1,13 @@
 # social_mice
 Python and MATLAB code and data for statistical physics analysis of social behavior in Eco-HAB mice.
 
-Original codes for the manuscript:
-
-Modelling collective behavior in groups of mice housed under semi-naturalistic conditions 
-
+Original codes for the manuscript:\
+Modelling collective behavior in groups of mice housed under semi-naturalistic conditions \
 Chen, Winiarski, Puścian, Knapska, Mora, Walczak (2023)
 
 In the python_code folder, the Jupyter notebook shows how Fig.1 is generated.
+
+
 
 In matlab_code folder, code can be found which generates the following figures:
 
