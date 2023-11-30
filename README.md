@@ -5,6 +5,13 @@ Original codes for the manuscript:\
 Modelling collective behavior in groups of mice housed under semi-naturalistic conditions \
 Chen, Winiarski, Puścian, Knapska, Mora, Walczak (2023)
 
+
+For original data and intermediate steps: \
+The folder data contains original data.\
+The folder processed_data contains data processed by the Jupyter notebook in python_code.\
+The folder output contains output / results from the maximum entropy model learning, which are used to generate figures.
+
+
 In the python_code folder, the Jupyter notebook shows how Fig.1 is generated.
 
 
