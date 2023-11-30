@@ -16,6 +16,13 @@ Change nstrain_name to generate supplementary figures S10, S11.
 plot_fig4.mlx
 generates all non-schematic panels of Figure 4, including Fig. 4B, 4C, and supplementary figure Fig.S14.
 
+--- 
+plot_figs1.mlx
+generates supplementary figure Fig.S1.
+
+plot_figs6.mlx
+generates supplementary figure Fig.S6.
+
 plot_figs7.mlx
 generates supplementary figure Fig.S7.
 
