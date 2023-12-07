@@ -1,8 +1,7 @@
-% XC 20170306
+function [output] = recoverUpt(input, matrixSize)
 % Given the upper triangular part of a matrix in the format of 1d array,
 % recover the matrix
 
-function [output] = recoverUpt(input, matrixSize)
     
     output = zeros(matrixSize);
 
