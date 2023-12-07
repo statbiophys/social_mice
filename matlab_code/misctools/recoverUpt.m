@@ -2,7 +2,6 @@ function [output] = recoverUpt(input, matrixSize)
 % Given the upper triangular part of a matrix in the format of 1d array,
 % recover the matrix
 
-    
     output = zeros(matrixSize);
 
     counter = 1;
