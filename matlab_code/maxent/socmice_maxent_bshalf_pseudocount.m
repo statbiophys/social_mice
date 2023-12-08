@@ -101,7 +101,13 @@ for dayId = 0:nDays-1
 
     for ibs = 1:nbs % and just don't do the bootstrap :nbs %
         disp(['dayId = ' num2str(dayId) ', ibs = ' num2str(ibs)]);
-        s_bs = s(:, bsIdx2(ibs,:));
+
+        %
+        if nbs > 1
+            s_bs = s(:, bsIdx2(ibs,:));
+        else
+            s_bs = s;
+        end
 
 
         %%
@@ -126,12 +132,44 @@ for dayId = 0:nDays-1
 
         %% 
 
-        fp = ['sme_6h_nbs10_pseudocount_' nstrain ...
-            '_iday' num2str(dayId+1) '_ibs' num2str(ibs) '.mat'];
+        if nbs > 1
+            if strcmp(nstrain, 'female_before_timp_180413') || ...
+                strcmp(nstrain, 'female_after_timp_180430') || ...
+                strcmp(nstrain, 'male_before_bsa_200713') || ...
+                strcmp(nstrain, 'male_after_bsa_200727') 
+                fp = ['sme_6h_nbs10_pseudocount_' nstrain ...
+                    '_nim_iday' num2str(dayId+1) '_ibs' num2str(ibs) '.mat'];
+            else
+                fp = ['sme_6h_nbs10_pseudocount_' nstrain ...
+                    '_iday' num2str(dayId+1) '_ibs' num2str(ibs) '.mat'];
+            end
+
          save(fp, 's_bs', 'nNodes', 'nSamples', 'nStates', 'lambda', ...
             'cijExp_eachday','mirExp_eachday','ccijExp_eachday',...
             'jij_gd_eachday', 'hir_gd_eachday', ...
+            'meanj2_gd','stdj2_gd');
+
+        else
+
+            if strcmp(nstrain, 'female_before_timp_180413') || ...
+                strcmp(nstrain, 'female_after_timp_180430') || ...
+                strcmp(nstrain, 'male_before_bsa_200713') || ...
+                strcmp(nstrain, 'male_after_bsa_200727') 
+                fp = ['sme_6h_nbs10_pseudocount_' nstrain ...
+                    '_nim_iday' num2str(dayId+1) '_full6hr.mat'];
+            else
+                fp = ['sme_6h_nbs10_pseudocount_' nstrain ...
+                    '_iday' num2str(dayId+1) '_full6hr.mat'];
+            end
+
+         save(fp, 's', 'nNodes', 'nSamples', 'nStates', 'lambda', ...
+            'cijExp_eachday','mirExp_eachday','ccijExp_eachday',...
+            'jij_gd_eachday', 'hir_gd_eachday', ...
             'meanj2_gd','stdj2_gd'); 
+        end
+            
+
+
            
     end
 end
