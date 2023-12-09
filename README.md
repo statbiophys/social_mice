@@ -16,7 +16,13 @@ In the python_code folder, the Jupyter notebook shows how Fig.1 is generated.
 
 
 
-In matlab_code folder, code can be found which generates the following figures:
+In matlab_code folder:
+
+1. The codes that generate intermediate results (e.g. inferred parameters of the maximum entropy model) from processed data is in the maxent subfolder. 
+To fully operate the code, download UGM package (Mark Schmidt 2007) from https://www.cs.ubc.ca/~schmidtm/Software/UGM.html.
+
+2. The codes that generates figures from intermediate results:
+
 
 plot_fig2.mlx
 generates all non-schematic panels of Figure 2, including Fig. 2C, 2D, 2E,
@@ -40,12 +46,6 @@ generates supplementary figure Fig.S7.
 
 plot_figs8_s9.mlx
 generate supplementary figures Fig.S8 and S9.
-
-
-The code that generate intermediate results (e.g. inferred parameters of the maximum entropy model) from processed data is in the maxent folder. 
-To fully operate the code, download UGM package (Mark Schmidt 2007) from https://www.cs.ubc.ca/~schmidtm/Software/UGM.html.
-
-
 
 plot_figs12_mi.mlx
 generates supplementary figure Fig.S12.
