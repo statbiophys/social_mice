@@ -1,5 +1,4 @@
-# social_mice
-Python and MATLAB code and data for statistical physics analysis of social behavior in Eco-HAB mice.
+# Python and MATLAB code and data for statistical physics analysis of social behavior in Eco-HAB mice.
 
 Original codes for the manuscript:\
 Modelling collective behavior in groups of mice housed under semi-naturalistic conditions \
