@@ -29,7 +29,6 @@ Change nstrain_name to generate supplementary figures S10, S11.
 plot_fig4.mlx
 generates all non-schematic panels of Figure 4, including Fig. 4B, 4C, and supplementary figure Fig.S14.
 
---- 
 plot_figs1.mlx
 generates supplementary figure Fig.S1.
 
@@ -41,6 +40,12 @@ generates supplementary figure Fig.S7.
 
 plot_figs8_s9.mlx
 generate supplementary figures Fig.S8 and S9.
+
+
+The code that generate intermediate results (e.g. inferred parameters of the maximum entropy model) from processed data is in the maxent folder. 
+To fully operate the code, download UGM package (Mark Schmidt 2007) from https://www.cs.ubc.ca/~schmidtm/Software/UGM.html.
+
+
 
 plot_figs12_mi.mlx
 generates supplementary figure Fig.S12.
