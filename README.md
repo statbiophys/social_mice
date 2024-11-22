@@ -27,18 +27,17 @@ plot_fig2.mlx
 generates all non-schematic panels of Figure 2, including Fig. 2C, 2D, 2E,
 and the supplementary materials Fig.S2, S3, S4, S5.
 
+plot_fig2f_fig2sup8.mlx
+generates panel F of Figure 2, and its linked Supplementary Figure 8.
+
 plot_fig3.mlx
-generates all non-schematic panels of Figure 3, including Fig. 3B, 3C, 3D, 3E, 3F.
-Change nstrain_name to generate supplementary figures S10, S11.
+generates all non-schematic panels of Figure 3, and its linked Supplementary Figures.
 
 plot_fig4.mlx
-generates all non-schematic panels of Figure 4, including Fig. 4B, 4C, and supplementary figure Fig.S14.
+generates all non-schematic panels of Figure 4, and its linked Supplementary Figures.
 
 plot_figs1.mlx
-generates supplementary figure Fig.S1.
-
-plot_figs6.mlx
-generates supplementary figure Fig.S6.
+generates supplementary figure Figure 1 - figure supplement 1.
 
 plot_figs7.mlx
 generates supplementary figure Fig.S7.
