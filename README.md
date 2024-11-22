@@ -39,11 +39,6 @@ generates all non-schematic panels of Figure 4, and its linked Supplementary Fig
 plot_figs1.mlx
 generates supplementary figure Figure 1 - figure supplement 1.
 
-plot_figs8_s9.mlx
-generate supplementary figures Fig.S8 and S9.
-
-plot_figs12_mi.mlx
-generates supplementary figure Fig.S12.
 
 plot_figs13.mlx
 generates supplementary figure Fig.S13.
