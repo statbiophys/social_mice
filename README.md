@@ -24,8 +24,8 @@ To fully operate the code, download UGM package (Mark Schmidt 2007) from https:/
 
 
 plot_fig2.mlx
-generates all non-schematic panels of Figure 2, including Fig. 2C, 2D, 2E,
-and the supplementary materials Fig.S2, S3, S4, S5.
+generates Fig. 2C, 2D, 2E
+and the supplementary materials Fig.2 SI Fig 1,2,3,4.
 
 plot_fig2f_fig2sup8.mlx
 generates panel F of Figure 2, and its linked Supplementary Figure 8.
@@ -39,6 +39,3 @@ generates all non-schematic panels of Figure 4, and its linked Supplementary Fig
 plot_figs1.mlx
 generates supplementary figure Figure 1 - figure supplement 1.
 
-
-plot_figs13.mlx
-generates supplementary figure Fig.S13.
