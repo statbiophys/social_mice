@@ -27,6 +27,9 @@ plot_fig2.mlx
 generates Fig. 2C, 2D, 2E
 and the supplementary materials Fig.2 SI Fig 1,2,3,4.
 
+plot_fig2sup6.mlx
+generates Figure 2 - Supplementary Figure 6.
+
 plot_fig2sup7.mlx
 generates Figure 2 - Supplementary Figure 7.
 
